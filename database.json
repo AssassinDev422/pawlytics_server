@@ -1,0 +1,27 @@
+{
+  "development": {
+    "db":{    
+      "username": "postgres",    
+      "password": "postgres",
+      "database": "fpp-dev",
+      "host": "localhost",
+      "dialect": "postgres"
+    }
+  },
+  "production": {
+    "db":{
+      "username": "beavertech",
+      "password": "ZLq4(b;^Z6>NY:ta",
+        "database": "fpp_production",
+        "host": "parsesoftware.c4q9wug0fkfm.us-west-2.rds.amazonaws.com",
+        "dialect": "postgres",
+        "define": {
+          "timestamps": true,
+          "paranoid": true
+        },
+        "logging": true
+    },
+    "port":3000
+  }
+}
+

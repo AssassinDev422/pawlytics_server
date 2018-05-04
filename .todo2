@@ -1,0 +1,34 @@
+{
+  "title": "",
+  "tasks": [
+    {
+      "text": "add fields schema",
+      "priority": "medium",
+      "creation": 1507825435,
+      "completion": 1508297678
+    },
+    {
+      "text": " document categories can be applied to OrgDocument table or OrgTemplate table",
+      "priority": "medium",
+      "creation": 1508391532,
+      "completion": 1510221827
+    },
+    {
+      "text": "add DocumentTemplateValues, FK for Doc template, constraint, User",
+      "priority": "medium",
+      "creation": 1508391593,
+      "completion": 1510126457
+    },
+    {
+      "text": "Operation is analog for Form, and Field stays the same.  Because operation will have access to the Validation api, in both scenarios.  Further OperationField -\u003e FormField, etc",
+      "priority": "medium",
+      "creation": 1509470210,
+      "completion": 1510126468
+    },
+    {
+      "text": "stopped inside socket where i am adding an export field, the idea is to say which op to use, then finding that field in the tree just to verify, and then adding it.  the raw json can be generated but that is much more difficult.  a way faster way to do it, is to simply allow to insert raw JSON in there.  JSON makes the most sense, that way can generate whatever from that",
+      "priority": "medium",
+      "creation": 1510305246
+    }
+  ]
+}

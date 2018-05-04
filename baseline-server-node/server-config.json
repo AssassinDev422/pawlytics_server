@@ -1,0 +1,40 @@
+{
+  "server": {
+    "port": 4201
+  },
+
+  "database": 
+  {
+    "development": {
+      "db":{    
+        "username": "postgres",    
+        "password": "postgres",
+        "database": "lgt-dev",
+        "host": "localhost",
+        "dialect": "postgres",
+
+        "define": {
+          "timestamps": true,
+          "paranoid": true
+        },
+        "logging": false
+      },
+      "port":3001
+    },
+    "production": {
+      "db":{
+        "username": "lgt",
+        "password": "ZLq4(b;^Z6>NY:ta",
+          "database": "lgt_pro",
+          "host": "set host no port",
+          "dialect": "postgres",
+          "define": {
+            "timestamps": true,
+            "paranoid": true
+          },
+          "logging": true
+      },
+      "port":3000
+    }
+  }
+}

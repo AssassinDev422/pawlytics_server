@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>  {{title}} </h1>
+</div>
+
+<div>
+  Logged in status: {{loginStatus}}
+</div>
+<div> 
+  <input [(ngModel)]="username" placeholder="username"/>
+  <input [(ngModel)]="password" placeholder="password"/>
+  <button (click)="submitLogin()">Login</button>
+</div>
+
+<div>
+  <button (click)="submitLogout()">Logout</button>
+</div>
+
+<div>
+  <button (click)="testEmit()">testEmit</button>
+</div>

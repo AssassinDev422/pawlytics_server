@@ -1,0 +1,42 @@
+<div class="{{className}}">
+  <div class="row pb-1">
+    <div class="col-12">
+      <h5 class="mb-0"> {{name}} </h5>
+    </div>
+    <div class="col-12">
+      <div class="dropdown">
+        <button id="{{uniqueId}}-btn-yes" class="{{uniqueId}} btn btn-light" 
+          onclick_ignore="{{notifyFuncName}}('{{yesValue}}', {{dataObject}}, event)"
+          type="button">
+          {{yesText}}
+        </button>
+        <button id="{{uniqueId}}-btn-no" class="{{uniqueId}} btn btn-dark" 
+          onclick_ignore="{{notifyFuncName}}('{{noValue}}', {{dataObject}}, event)"
+          type="button"
+          >
+          {{noText}}
+        </button>
+        <script option="handleForm">
+          document.formApi.connect("{{uniqueId}}", "{{isSelected}}", {{dataObject}}, function(curValue) {
+            console.log(' update value function being called with ', curValue);
+            let yesbtn = document.getElementById("{{uniqueId}}-btn-yes");
+            let nobtn = document.getElementById("{{uniqueId}}-btn-no");
+            if (curValue==='true') {
+              nobtn.setAttribute('class', 'btn btn-light');
+              yesbtn.setAttribute('class', 'btn btn-dark');
+            } else {
+              yesbtn.setAttribute('class', 'btn btn-light');
+              nobtn.setAttribute('class', 'btn btn-dark');
+            }
+          });
+          document.formApi.onClick("{{uniqueId}}-btn-yes", function (node) {
+            document.formApi.setValue("{{uniqueId}}", 'true');
+          })
+          document.formApi.onClick("{{uniqueId}}-btn-no", function (node) {
+            document.formApi.setValue("{{uniqueId}}", 'false');
+          })
+        </script>
+      </div>
+    </div>
+  </div>
+</div>

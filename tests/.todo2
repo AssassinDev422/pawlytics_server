@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "tasks": [
+    {
+      "text": "add document template section, document template, then create document table, for instantiated document templates, then setters/getters and document field table",
+      "priority": "medium",
+      "creation": 1509003383
+    }
+  ]
+}

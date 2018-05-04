@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<title>How To Use Client-Side API</title>
+
+	<head>
+	</head>
+	<body>
+
+		<p id="demo"> will this change though....  this is a demo, push some buttons.  This server isn't really meant to host apps, so go make yer own...
+		</p>
+		<div>
+		<button onclick="document.submitLogin()">Login: username, password</button>
+		<input id="usernameInputId"/>
+		<input id="passwordInputId"/>
+		</div>
+		<div>
+		<button onclick="document.submitCreateUser()">Create: username, password</button>
+		<input id="usernameInputCreateId"/>
+		<input id="passwordInputCreateId"/>
+		</div>
+		<button onclick="document.doTheLogin2()">User2 Login</button>
+		<button onclick="document.buttonHandler()">send message</button>
+		<button onclick="document.addUserHandler()">Add User</button>
+		<button onclick="document.getAllUsers()">Get All Users</button>
+		<button onclick="document.LOGOUT()">Logout</button>
+
+		<script src="bundle.js"></script>
+	</body>
+</html>

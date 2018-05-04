@@ -1,0 +1,34 @@
+{
+  "development": {
+    "db":{    
+        "username": "postgres",    
+        "password": "postgres",
+        "database": "FILL IN",
+        "host": "localhost",
+        "dialect": "postgres",
+        
+        "define": {
+            "timestamps": true,
+            "paranoid": true
+        },
+        "logging": false
+    },
+    "port":3001
+  },
+  "production": {
+    "db":{
+        "username": "",
+        "password": "",
+        "database": "",
+        "host": "set host no port",
+        "dialect": "postgres",
+        "define": {
+            "timestamps": true,
+            "paranoid": true
+        },
+        "logging": true
+    },
+    "port":3000
+  }
+}
+

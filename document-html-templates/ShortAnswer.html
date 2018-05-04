@@ -1,0 +1,12 @@
+<div class="row pb-1">
+  <div class="col-12">
+    <h5> {{question}} </h5>
+  </div>
+  <div class="col-12">
+    <input id="[[answer.FieldId]]"
+    type="text"
+    class="form-control"
+    placeholder="{{answer}}" 
+    onkeyup="{{notifyFuncName}}(event.target.value, '[[answer.Value.Id]]')"/>
+</div>
+</div>

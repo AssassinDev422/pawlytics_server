@@ -1,0 +1,52 @@
+[
+	{
+		"name":"Change user type"
+	},
+	{
+		"name":"Change type actions"
+	},
+	{
+		"name":"Create truck"
+	},
+	{
+		"name":"Update truck"
+	},
+	{
+		"name":"Retrieve truck"
+	},
+	{
+		"name":"Retrieve trucks"
+	},
+	{
+		"name":"Delete truck"
+	},
+	{
+		"name":"Create truck"
+	},
+	{
+		"name":"Create user"
+	},
+	{
+		"name":"Update user"
+	},
+	{
+		"name":"Delete user"
+	},
+	{
+		"name":"List users"
+	},
+	{
+		"name":"Create trailer"
+	},
+	{
+		"name":"Update trailer"
+	},
+	{
+		"name":"Delete trailer"
+	},
+	{
+		"name":"List trailers"
+	}
+]
+
+

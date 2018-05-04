@@ -1,0 +1,37 @@
+[
+  {
+    "question": "All animals need time to transition to their new home, are you willing to work with that animal until the transition is complete",
+	 "questionType": "boolean",
+	 "values": ["agree","disagree"],
+	 "allowEmptyAnswer": false 
+  },
+  {
+    "question": "Some animals will need training, in that event, are you willing to provide the proper training",
+	 "questionType": "boolean",
+	 "values": ["agree","disagree"],
+	 "allowEmptyAnswer": false 
+  },
+  {
+    "question": "Are you prepared to care for this animal for the rest of it's life? Depending on the animal, that could be 10-15 years.",
+	 "values": ["agree","disagree"],
+	 "questionType": "boolean",
+	 "allowEmptyAnswer": false 
+  },
+  {
+	  "question": "Bad pet habits I cannot tolerate are:",
+    "values": ["excessive barking", "dog aggressive", "cat aggressive", "human aggressive", "digging", "shedding", "not trainable", "potty in house", "separation anxiety", "chewing"],
+	 "questionType": "select-many",
+	 "allowEmptyAnswer": true 
+  },
+  {
+    "question": "Reasons that may force me to give up my pet are:",
+	 "values": ["divorce/separation", "allergies", "moving/relocating", "financial problems", "excessive vet bills", "having a baby", "new spouse does not like pet", "pets not getting along", "none"],
+	 "questionType": "select-many",
+	 "allowEmptyAnswer": true 
+  },
+  {
+    "question": "Please tell us anything else you would like us to know about you or the type of pet you are looking for",
+	 "questionType": "text",
+	 "allowEmptyAnswer": true 
+  }
+]
